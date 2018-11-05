@@ -31,9 +31,7 @@ var GameState = {
     this.load.image('specialAbility', 'assets/images/fire_spritesheet.png');
     this.load.image('powerAbility', 'assets/images/powerOne.png');
 
-
     this.load.spritesheet('player', 'assets/images/player_spritesheet.png', 28, 30, 5, 1, 1);
-    // this.load.spritesheet('specialAbility', 'assets/images/fire_spritesheet.png', 20, 21, 2, 1, 1);
 
     this.load.text('level', 'assets/data/level.json');
     this.load.text('playerData', 'assets/data/player_data.json');
@@ -101,7 +99,6 @@ var GameState = {
     this.game.physics.arcade.collide(this.barrels, this.platforms);
 
     this.game.physics.arcade.overlap(this.player, this.fires, this.killPlayer);
-    // this.game.physics.arcade.overlap(this.player, this.barrels, this.killPlayer);
     this.game.physics.arcade.overlap(this.player, this.goal, this.win);
 
     this.player.body.velocity.x = 0;

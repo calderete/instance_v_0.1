@@ -1,0 +1,22 @@
+{
+  "melee": {
+    "name": "Melee Ability",
+    "id": 1,
+    "power": 10,
+    "defense": 0
+  },
+
+  "special": {
+    "name": "Special Ability",
+    "id": 2,
+    "power": 20,
+    "defense": 10
+  },
+
+  "power": {
+    "name": "Power Ability",
+    "id": 3,
+    "power": 50,
+    "defense": 50
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "cream blade": {
+    "power": 4,
+    "id": 2,
+    "damageType": "instant",
+    "damageTypeId": 1,
+    "elementType": "kinetic",
+    "elementTypeId": 1,
+    "itemType": "specialAbility",
+    "itemTypeId": 2,
+    "rate": 0.5
+  },
+
+  "leather knux": {
+    "power": 10,
+    "id": 1,
+    "damageType": "instant",
+    "damageTypeId": 1,
+    "elementType": "kinetic",
+    "elementTypeId": 1,
+    "itemType": "meleeAbility",
+    "itemTypeId": 1,
+    "rate": 0.1
+  },
+
+  "trinity": {
+    "power": 100,
+    "id": 3,
+    "damageType": "aoe",
+    "damageTypeId": 2,
+    "elementType": "exotic",
+    "elementTypeId": 2,
+    "itemType": "powerAbility",
+    "itemTypeId": 3,
+    "rate": 1.0
+  }
+}
